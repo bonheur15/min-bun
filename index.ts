@@ -80,7 +80,7 @@ app.use(express.json());
  */
 app.get('/', (req: Request, res: Response) => {
     res.status(200).json({ 
-        message: 'Welcome to the File Permission and CPU Load API!',
+        message: 'Welcome to the File Permission and CPU Load API! cool',
         endpoints: {
             demo: 'GET /demo',
             cpu: 'GET /cpu'
