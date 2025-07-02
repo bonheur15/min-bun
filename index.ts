@@ -129,7 +129,7 @@ app.get('/demo', async (req: Request, res: Response) => {
  * This will block the Node.js event loop, demonstrating the effect of a long-running synchronous task.
  */
 app.get('/cpu', (req: Request, res: Response) => {
-    console.log('Received request for /cpu endpoint. Starting intensive task...');
+    console.log('Received request for /cpu endpoint. Starting intensive task123');
     const startTime = Date.now();
 
     // WARNING: This is a synchronous, blocking operation.
